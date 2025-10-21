@@ -1,0 +1,75 @@
+\doxysection{funkcje.\+h File Reference}
+\hypertarget{funkcje_8h}{}\label{funkcje_8h}\index{funkcje.h@{funkcje.h}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funkcje_8h_af95cddb6fb7893c1ccedb9663c31a74a}{uruchomienie}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]}, std\+::string \&plik\+\_\+wejsciowy, std\+::string \&plik\+\_\+wyjsciowy, std\+::string \&tryb, std\+::string \&rozmiar\+\_\+bufora\+\_\+wejsciowego2, std\+::string \&rozmiar\+\_\+bufora\+\_\+historii2)
+\item 
+void \mbox{\hyperlink{funkcje_8h_ab8cd35ef1106eb46b7658ea6f98f2ccb}{sprawdzenie\+\_\+poprawnosci}} (std\+::string \&plik\+\_\+wejsciowy, std\+::string \&plik\+\_\+wyjsciowy, std\+::string \&tryb, std\+::string \&rozmiar\+\_\+bufora\+\_\+wejsciowego, std\+::string \&rozmiar\+\_\+bufora\+\_\+historii)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{funkcje_8h_ab8cd35ef1106eb46b7658ea6f98f2ccb}\index{funkcje.h@{funkcje.h}!sprawdzenie\_poprawnosci@{sprawdzenie\_poprawnosci}}
+\index{sprawdzenie\_poprawnosci@{sprawdzenie\_poprawnosci}!funkcje.h@{funkcje.h}}
+\doxysubsubsection{\texorpdfstring{sprawdzenie\_poprawnosci()}{sprawdzenie\_poprawnosci()}}
+{\footnotesize\ttfamily \label{funkcje_8h_ab8cd35ef1106eb46b7658ea6f98f2ccb} 
+void sprawdzenie\+\_\+poprawnosci (\begin{DoxyParamCaption}\item[{std\+::string \&}]{plik\+\_\+wejsciowy}{, }\item[{std\+::string \&}]{plik\+\_\+wyjsciowy}{, }\item[{std\+::string \&}]{tryb}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+wejsciowego}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+historii}{}\end{DoxyParamCaption})}
+
+Sprawdza poprawnosc argumentow wprowadzonych przez uzytkownika 
+\begin{DoxyParams}{Parameters}
+{\em plik\+\_\+wejsciowy} & zawiera plik wejsciowy \\
+\hline
+{\em plik\+\_\+wyjsciowy} & zawiera plik wyjsciowy \\
+\hline
+{\em tryb} & zawiera czy program ma robic kompresje, czy dekompresje \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+wejsciowego} & zawiera jaki rozmiar ma miec bufor wejsciowy \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+historii} & zawiera jaki rozmiar ma miec bufor historii \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/01-\/02 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]
+\begin{DoxyEnumerate}
+\item Przydalo by sie sprawdzac czy rozszerzenie pliku wyjsciowego jest prawidlowe. (Jakie jest prawidlowe?) 
+\end{DoxyEnumerate}
+
+2. jeszcze niezaimplementowana 
+
+4 i 5 trzeba sprawdzic czy jest intem!!!\end{DoxyRefDesc}
+"{}1"{}, "{}2"{}, "{}3"{}, "{}4"{}, "{}5"{}, "{}6"{}, "{}7"{}, "{}8"{}, "{}9"{}, "{}0"{}\Hypertarget{funkcje_8h_af95cddb6fb7893c1ccedb9663c31a74a}\index{funkcje.h@{funkcje.h}!uruchomienie@{uruchomienie}}
+\index{uruchomienie@{uruchomienie}!funkcje.h@{funkcje.h}}
+\doxysubsubsection{\texorpdfstring{uruchomienie()}{uruchomienie()}}
+{\footnotesize\ttfamily \label{funkcje_8h_af95cddb6fb7893c1ccedb9663c31a74a} 
+void uruchomienie (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char \texorpdfstring{$\ast$}{*}}]{argv}{\mbox{[}$\,$\mbox{]}, }\item[{std\+::string \&}]{plik\+\_\+wejsciowy}{, }\item[{std\+::string \&}]{plik\+\_\+wyjsciowy}{, }\item[{std\+::string \&}]{tryb}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+wejsciowego2}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+historii2}{}\end{DoxyParamCaption})}
+
+Funkcja odczytuje przelaczniki i argumenty podane przez uzytkownika Pozniej zapisuje je do zmiennych. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & \\
+\hline
+{\em argv\mbox{[}$\,$\mbox{]}} & \\
+\hline
+{\em plik\+\_\+wejsciowy} & zawiera plik wejsciowy \\
+\hline
+{\em plik\+\_\+wyjsciowy} & zawiera plik wyjsciowy \\
+\hline
+{\em tryb} & zawiera czy program ma robic kompresje, czy dekompresje \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+wejsciowego} & zawiera jaki rozmiar ma miec bufor wejsciowy \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+historii} & zawiera jaki rozmiar ma miec bufor historii \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/01-\/02 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}

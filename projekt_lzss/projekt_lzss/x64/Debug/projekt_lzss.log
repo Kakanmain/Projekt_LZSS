@@ -1,0 +1,11 @@
+﻿  main.cpp
+  program.cpp
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(13,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(33,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(40,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(47,13): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(52,13): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\projekt_lzss\program.cpp(160,47): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  sprawdzenie_poprawnosci.cpp
+  Generowanie kodu...
+  projekt_lzss.vcxproj -> C:\Users\kakan\OneDrive\Pulpit\projekt_lzss\x64\Debug\projekt_lzss.exe

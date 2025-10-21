@@ -1,0 +1,137 @@
+\doxysection{program.\+cpp File Reference}
+\hypertarget{program_8cpp}{}\label{program_8cpp}\index{program.cpp@{program.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include "{}program.\+h"{}}\newline
+{\ttfamily \#include "{}struktura.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{program_8cpp_a4d030b291aa70851d3f62762dd8eaf99}{przesun\+\_\+bufor\+\_\+historii}} (std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+wejsciowy, std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+historii, unsigned int ile, const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&config, const int \&indeks)
+\item 
+void \mbox{\hyperlink{program_8cpp_af712e45df505ae7c31fab4f40f23acda}{przesun\+\_\+bufor\+\_\+wejsciowy}} (std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+wejsciowy, unsigned int ile, const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&config, int \&licznik\+\_\+znaków)
+\item 
+void \mbox{\hyperlink{program_8cpp_a353c4c95d04d3a7a4e3a7ce8136b457d}{kompresja}} (std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+wejsciowy, std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+historii, const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&config, int \&licznik\+\_\+znaków)
+\item 
+void \mbox{\hyperlink{program_8cpp_aca56b2a53e59fa999c3d9192882fd8bc}{dekompresja}} (std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+wejsciowy, std\+::vector$<$ std\+::string $>$ \&bufor\+\_\+historii, const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&config, int \&licznik\+\_\+znaków)
+\item 
+void \mbox{\hyperlink{program_8cpp_a5f38e27226ec9f4bc5072903143a7b30}{kompresja\+\_\+dekompresja}} (const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&config)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{program_8cpp_aca56b2a53e59fa999c3d9192882fd8bc}\index{program.cpp@{program.cpp}!dekompresja@{dekompresja}}
+\index{dekompresja@{dekompresja}!program.cpp@{program.cpp}}
+\doxysubsubsection{\texorpdfstring{dekompresja()}{dekompresja()}}
+{\footnotesize\ttfamily \label{program_8cpp_aca56b2a53e59fa999c3d9192882fd8bc} 
+void dekompresja (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+wejsciowy}{, }\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+historii}{, }\item[{const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&}]{config}{, }\item[{int \&}]{licznik\+\_\+znaków}{}\end{DoxyParamCaption})}
+
+Przeprowadza kompresje danych 
+\begin{DoxyParams}{Parameters}
+{\em bufor\+\_\+wejsciowy} & zawiera wektor bufora wejsciowego \\
+\hline
+{\em bufor\+\_\+historii} & zawiera wektor bufora historii \\
+\hline
+{\em config} & struktura glownych zmiennych konfiguracyjnych \\
+\hline
+{\em licznik\+\_\+znaków} & zawiera ile znakow z pliku wejsciowego zostalo obsluzonych \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/02-\/01 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba todo entery coœ psuj¹ 
+\end{DoxyAuthor}
+\Hypertarget{program_8cpp_a353c4c95d04d3a7a4e3a7ce8136b457d}\index{program.cpp@{program.cpp}!kompresja@{kompresja}}
+\index{kompresja@{kompresja}!program.cpp@{program.cpp}}
+\doxysubsubsection{\texorpdfstring{kompresja()}{kompresja()}}
+{\footnotesize\ttfamily \label{program_8cpp_a353c4c95d04d3a7a4e3a7ce8136b457d} 
+void kompresja (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+wejsciowy}{, }\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+historii}{, }\item[{const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&}]{config}{, }\item[{int \&}]{licznik\+\_\+znaków}{}\end{DoxyParamCaption})}
+
+Przeprowadza kompresje danych 
+\begin{DoxyParams}{Parameters}
+{\em bufor\+\_\+wejsciowy} & zawiera wektor bufora wejsciowego \\
+\hline
+{\em bufor\+\_\+historii} & zawiera wektor bufora historii \\
+\hline
+{\em config} & struktura glownych zmiennych konfiguracyjnych \\
+\hline
+{\em licznik\+\_\+znaków} & zawiera ile znakow z pliku wejsciowego zostalo obsluzonych \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/02-\/01 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba todo optymalizacja 
+\end{DoxyAuthor}
+\Hypertarget{program_8cpp_a5f38e27226ec9f4bc5072903143a7b30}\index{program.cpp@{program.cpp}!kompresja\_dekompresja@{kompresja\_dekompresja}}
+\index{kompresja\_dekompresja@{kompresja\_dekompresja}!program.cpp@{program.cpp}}
+\doxysubsubsection{\texorpdfstring{kompresja\_dekompresja()}{kompresja\_dekompresja()}}
+{\footnotesize\ttfamily \label{program_8cpp_a5f38e27226ec9f4bc5072903143a7b30} 
+void kompresja\+\_\+dekompresja (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&}]{config}{}\end{DoxyParamCaption})}
+
+Przeprowadza kompresje lub dekompresje danych 
+\begin{DoxyParams}{Parameters}
+{\em config} & struktura glownych zmiennych konfiguracyjnych \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/02-\/01 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba todo dekompresja 
+\end{DoxyAuthor}
+\Hypertarget{program_8cpp_a4d030b291aa70851d3f62762dd8eaf99}\index{program.cpp@{program.cpp}!przesun\_bufor\_historii@{przesun\_bufor\_historii}}
+\index{przesun\_bufor\_historii@{przesun\_bufor\_historii}!program.cpp@{program.cpp}}
+\doxysubsubsection{\texorpdfstring{przesun\_bufor\_historii()}{przesun\_bufor\_historii()}}
+{\footnotesize\ttfamily \label{program_8cpp_a4d030b291aa70851d3f62762dd8eaf99} 
+void przesun\+\_\+bufor\+\_\+historii (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+wejsciowy}{, }\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+historii}{, }\item[{unsigned int}]{ile}{, }\item[{const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&}]{config}{, }\item[{const int \&}]{indeks}{}\end{DoxyParamCaption})}
+
+Przeprowadza kompresje danych 
+\begin{DoxyParams}{Parameters}
+{\em bufor\+\_\+wejsciowy} & zawiera wektor bufora wejsciowego \\
+\hline
+{\em bufor\+\_\+historii} & zawiera wektor bufora historii \\
+\hline
+{\em ile} & zawiera o ile przesunac bufor wejsciowy \\
+\hline
+{\em config} & struktura glownych zmiennych konfiguracyjnych \\
+\hline
+{\em indeks} & zawiera indeks bufora historii dla dekompresjii \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/02-\/01 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}
+\Hypertarget{program_8cpp_af712e45df505ae7c31fab4f40f23acda}\index{program.cpp@{program.cpp}!przesun\_bufor\_wejsciowy@{przesun\_bufor\_wejsciowy}}
+\index{przesun\_bufor\_wejsciowy@{przesun\_bufor\_wejsciowy}!program.cpp@{program.cpp}}
+\doxysubsubsection{\texorpdfstring{przesun\_bufor\_wejsciowy()}{przesun\_bufor\_wejsciowy()}}
+{\footnotesize\ttfamily \label{program_8cpp_af712e45df505ae7c31fab4f40f23acda} 
+void przesun\+\_\+bufor\+\_\+wejsciowy (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{bufor\+\_\+wejsciowy}{, }\item[{unsigned int}]{ile}{, }\item[{const \mbox{\hyperlink{structkonfiguracja}{konfiguracja}} \&}]{config}{, }\item[{int \&}]{licznik\+\_\+znaków}{}\end{DoxyParamCaption})}
+
+Przesuwa bufor wejsciowy 
+\begin{DoxyParams}{Parameters}
+{\em bufor\+\_\+wejsciowy} & zawiera wektor bufora wejsciowego \\
+\hline
+{\em ile} & zaiera o ile przesunac bufor wejsciowy \\
+\hline
+{\em config} & struktura glownych zmiennych konfiguracyjnych \\
+\hline
+{\em licznik\+\_\+znaków} & zawiera ile znakow z pliku wejsciowego zostalo obsluzonych \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/02-\/01 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}

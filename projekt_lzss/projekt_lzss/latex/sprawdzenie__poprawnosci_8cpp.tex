@@ -1,0 +1,72 @@
+\doxysection{sprawdzenie\+\_\+poprawnosci.\+cpp File Reference}
+\hypertarget{sprawdzenie__poprawnosci_8cpp}{}\label{sprawdzenie__poprawnosci_8cpp}\index{sprawdzenie\_poprawnosci.cpp@{sprawdzenie\_poprawnosci.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include "{}sprawdzenie\+\_\+poprawnosci.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{sprawdzenie__poprawnosci_8cpp_a6c1f15b53614fc63c5f28598a20651d4}{uruchomienie}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]}, std\+::string \&plik\+\_\+wejsciowy, std\+::string \&plik\+\_\+wyjsciowy, std\+::string \&tryb, std\+::string \&rozmiar\+\_\+bufora\+\_\+wejsciowego\+\_\+s, std\+::string \&rozmiar\+\_\+bufora\+\_\+historii\+\_\+s)
+\item 
+void \mbox{\hyperlink{sprawdzenie__poprawnosci_8cpp_ac06e021f943c6306a306d8458ba0f4fd}{sprawdzenie\+\_\+poprawnosci}} (std\+::string \&plik\+\_\+wejsciowy, std\+::string \&plik\+\_\+wyjsciowy, std\+::string \&tryb, int \&rozmiar\+\_\+bufora\+\_\+wejsciowego\+\_\+i, int \&rozmiar\+\_\+bufora\+\_\+historii\+\_\+i)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{sprawdzenie__poprawnosci_8cpp_ac06e021f943c6306a306d8458ba0f4fd}\index{sprawdzenie\_poprawnosci.cpp@{sprawdzenie\_poprawnosci.cpp}!sprawdzenie\_poprawnosci@{sprawdzenie\_poprawnosci}}
+\index{sprawdzenie\_poprawnosci@{sprawdzenie\_poprawnosci}!sprawdzenie\_poprawnosci.cpp@{sprawdzenie\_poprawnosci.cpp}}
+\doxysubsubsection{\texorpdfstring{sprawdzenie\_poprawnosci()}{sprawdzenie\_poprawnosci()}}
+{\footnotesize\ttfamily \label{sprawdzenie__poprawnosci_8cpp_ac06e021f943c6306a306d8458ba0f4fd} 
+void sprawdzenie\+\_\+poprawnosci (\begin{DoxyParamCaption}\item[{std\+::string \&}]{plik\+\_\+wejsciowy}{, }\item[{std\+::string \&}]{plik\+\_\+wyjsciowy}{, }\item[{std\+::string \&}]{tryb}{, }\item[{int \&}]{rozmiar\+\_\+bufora\+\_\+wejsciowego\+\_\+i}{, }\item[{int \&}]{rozmiar\+\_\+bufora\+\_\+historii\+\_\+i}{}\end{DoxyParamCaption})}
+
+Sprawdza poprawnosc argumentow wprowadzonych przez uzytkownika 
+\begin{DoxyParams}{Parameters}
+{\em plik\+\_\+wejsciowy} & zawiera plik wejsciowy \\
+\hline
+{\em plik\+\_\+wyjsciowy} & zawiera plik wyjsciowy \\
+\hline
+{\em tryb} & zawiera czy program ma robic kompresje, czy dekompresje \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+wejsciowego} & zawiera jaki rozmiar ma miec bufor wejsciowy \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+historii} & zawiera jaki rozmiar ma miec bufor historii \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/01-\/03 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}
+\Hypertarget{sprawdzenie__poprawnosci_8cpp_a6c1f15b53614fc63c5f28598a20651d4}\index{sprawdzenie\_poprawnosci.cpp@{sprawdzenie\_poprawnosci.cpp}!uruchomienie@{uruchomienie}}
+\index{uruchomienie@{uruchomienie}!sprawdzenie\_poprawnosci.cpp@{sprawdzenie\_poprawnosci.cpp}}
+\doxysubsubsection{\texorpdfstring{uruchomienie()}{uruchomienie()}}
+{\footnotesize\ttfamily \label{sprawdzenie__poprawnosci_8cpp_a6c1f15b53614fc63c5f28598a20651d4} 
+void uruchomienie (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char \texorpdfstring{$\ast$}{*}}]{argv}{\mbox{[}$\,$\mbox{]}, }\item[{std\+::string \&}]{plik\+\_\+wejsciowy}{, }\item[{std\+::string \&}]{plik\+\_\+wyjsciowy}{, }\item[{std\+::string \&}]{tryb}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+wejsciowego\+\_\+s}{, }\item[{std\+::string \&}]{rozmiar\+\_\+bufora\+\_\+historii\+\_\+s}{}\end{DoxyParamCaption})}
+
+Funkcja odczytuje przelaczniki i argumenty podane przez uzytkownika Pozniej zapisuje je do zmiennych. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & Liczba argumentow \\
+\hline
+{\em argv\mbox{[}$\,$\mbox{]}} & Zawiera poszczególne argumenty przekazane do programu \\
+\hline
+{\em plik\+\_\+wejsciowy} & zawiera plik wejsciowy \\
+\hline
+{\em plik\+\_\+wyjsciowy} & zawiera plik wyjsciowy \\
+\hline
+{\em tryb} & zawiera czy program ma robic kompresje, czy dekompresje \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+wejsciowego} & zawiera jaki rozmiar ma miec bufor wejsciowy \\
+\hline
+{\em rozmiar\+\_\+bufora\+\_\+historii} & zawiera jaki rozmiar ma miec bufor historii \\
+\hline
+\end{DoxyParams}
+\begin{DoxyDate}{Date}
+2025-\/01-\/02 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Dyba 
+\end{DoxyAuthor}
